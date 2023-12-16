@@ -1,4 +1,4 @@
-class GitFlowHelper < Formula
+class GitflowHelper < Formula
     desc "Creating a hotfix using gitflow. Also it can create pr or output with lolcat if client has that packages."
     homepage "https://github.com/kaanmertkoc/gitflow-helper-shell"
     url "https://github.com/kaanmertkoc/gitflow-helper-shell/archive/refs/heads/master.zip"

@@ -8,11 +8,14 @@ class GitflowHelper < Formula
 
   
     def install
-      bin.install "hotfix.sh"
+      bin.install "hotfix.sh" => "hotfix"
+      bin.install "release.sh" => "release"
     end
   
     test do
       system "#{bin}/hotfix.sh", "--version"
+      system "#{bin}/release.sh", "--version"
     end
   end
   
+

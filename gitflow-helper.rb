@@ -3,7 +3,7 @@ class GitFlowHelper < Formula
     homepage: "https://github.com/kaanmertkoc/gitflow-helper-shell"
     url: "https://github.com/kaanmertkoc/gitflow-helper-shell/archive/refs/heads/master.zip"
     sha256: "SHA256-OF-TARBALL"
-    license "MIT"
+    license: "MIT"
 
     def install
         bin.install "hotfix.sh"

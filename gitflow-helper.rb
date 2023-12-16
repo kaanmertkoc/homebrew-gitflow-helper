@@ -4,6 +4,8 @@ class GitflowHelper < Formula
     url "https://github.com/kaanmertkoc/gitflow-helper-shell/archive/refs/heads/master.zip"
     sha256 "SHA256-OF-TARBALL" # Replace with actual SHA256 checksum of your tarball
     license "MIT"
+    version "1.0.0" # Replace with your desired version number
+
   
     def install
       bin.install "hotfix.sh"

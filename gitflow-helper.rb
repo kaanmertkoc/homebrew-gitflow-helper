@@ -5,17 +5,15 @@ class GitflowHelper < Formula
     sha256 "e28f8c8efdcd0bdc4ba211869fe8de0695de347d2813cd5243d09506f94c9bba" # Replace with actual SHA256 checksum of your tarball
     license "MIT"
     version "1.0.0" # Replace with your desired version number
-
   
     def install
-      bin.install "hotfix.sh" => "hotfix"
-      bin.install "release.sh" => "release"
+      bin.install "hotfix.sh" => "hotfix"
+      bin.install "release.sh" => "release"
     end
   
     test do
-      system "#{bin}/hotfix.sh", "--version"
-      system "#{bin}/release.sh", "--version"
+      system "#{bin}/hotfix", "--version"
+      system "#{bin}/release", "--version"
     end
   end
   
-

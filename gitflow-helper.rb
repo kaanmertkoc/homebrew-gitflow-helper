@@ -8,9 +8,9 @@ class GitflowHelper < Formula
   
     def install
       bin.install "hotfix.sh" => "hotfix"
-      bin.install "hotfix_finish.sh" => "hotfix finish"
+      bin.install "hotfix_finish.sh" => "hotfix_finish"
       bin.install "release.sh" => "release"
-      bin.install "release_finish.sh" => "release finish"
+      bin.install "release_finish.sh" => "release_finish"
     end
   
     test do

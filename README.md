@@ -12,19 +12,30 @@ This tool helps creating release or hotfixes with git-flow. It can bump version,
 
 # Usage
 
+# To Start
+
 ```
-
   hotfix --version
-
 ```
 This will create a hotfix branch on main branch based on the given version, then update the version with ``` npm version patch ``` then create pr if gh is present.
 
 
 ```
-
   release --version
-
 ```
 
 This will create a release branch on main branch based on the given version, then update the version with ``` npm version patch ``` then create pr if gh is present.
 
+# To Finish
+
+```
+ hotfix_finish --version
+```
+This will uncomment the tag version then will finish the hotfix. It will push tags for main and the dev branches.
+
+```
+release_finish --version
+```
+This will uncomment the tag version then will finish the release. It will push tags for main and the dev branches.
+
+Shell repo can be found here: [https://github.com/kaanmertkoc/gitflow-helper-shell]

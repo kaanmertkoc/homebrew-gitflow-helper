@@ -1,7 +1,12 @@
 # Git Flow Helper
 This tool helps creating release or hotfixes with git-flow. It can bump version, publish the branch then create the PR if gh is avaliable on the local by simply passing version number.
 
+# Installation
+  * ``` brew tap kaanmertkoc/homebrew-gitflow-helper ```
+  * ``` brew install gitflow-helper ```
+
 # Requirements
+  * Homebrew (install with ``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
   * Git (install with: ```brew install git```)
   * Git Flow (install with: ```brew install git-flow-avh```)
   * npm (install with: ```brew install node```)
